@@ -19,7 +19,7 @@ public class Service {
     private ArrayList<candidatePath> primaryPath; // 工作路径
     private candidatePath backupPath; // 保护路径
     private int totalAllocatedSlots;
-    private CopyOnWriteArrayList<Path> paths; // K条最短路径的集合123
+    private CopyOnWriteArrayList<Path> paths; // K条最短路径的集合
     public Service(int id,Node srcNode,Node destNode,int bandwidth,double arrivalTime,double duration){
         this.id = id;
         this.srcNode = srcNode;
