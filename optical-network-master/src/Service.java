@@ -61,7 +61,7 @@ public class Service {
             linkList.add(graph.getLinkList().get(i));
         }
 
-        // K取源节点和目的节点度的最小值123123
+        // K取源节点和目的节点度的最小值123123123
         int sourceDegree = 0;
         int destnationDegree = 0;
         for(Link link:linkList){
