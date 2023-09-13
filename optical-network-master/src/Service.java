@@ -16,7 +16,7 @@ public class Service {
     private int bandwidth; // 需求带宽
     private double arrivalTime; // 业务到达时间
     private double duration; // 业务持续时间
-    private ArrayList<candidatePath> primaryPath; // 工作路径123
+    private ArrayList<candidatePath> primaryPath; // 工作路径123456
     private candidatePath backupPath; // 保护路径
     private int totalAllocatedSlots;
     private CopyOnWriteArrayList<Path> paths; // K条最短路径的集合
